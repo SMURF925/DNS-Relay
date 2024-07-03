@@ -13,7 +13,7 @@
 #include "debugging_info.h"
 
 #define MAX_FILE_LINE_WIDTH 128
-#define SERVICE_THREAD_NUM 5
+#define SERVICE_THREAD_NUM 16
 
 pthread_mutex_t mutex_lock;
 char *serverIP;
